@@ -377,9 +377,9 @@ if __name__ == "__main__":
     parser.add_argument("notion_token")
     parser.add_argument("database_id")
     options = parser.parse_args()
-    print("1:"+options.weread_cookie)
-    print("2:"+options.database_id
-    print("3:"+options.notion_token)
+    print("1:" + options.weread_cookie)
+    print("2:" + options.database_id)
+    print("3:" + options.notion_token)
     weread_cookie = options.weread_cookie
     database_id = options.database_id
     notion_token = options.notion_token
